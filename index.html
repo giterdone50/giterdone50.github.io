@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <style>
+            @media screen and (max-width: 850px) {
+                #image{
+                    text-align: center;
+                }
+                #title{
+                    text-align: center;
+                }
+                #work{
+                    text-align: center;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row mt-4 mb-3">
+                <div class="col-md-6">
+                    <div class="float-md-left" id="image">    
+                        <img src="portrait.jpg" class="img-fluid rounded-circle" alt="Responsive image" width="150">
+                    </div>
+                </div>
+
+                <!--Had to place in containers to seperate portrait pic from text formating-->
+                <div class="col-md-6">
+                    <div class="text-md-right" id="title">    
+                        <h1>Richard Ramos<br></h1>
+                        <h4>Junior Programmer</h4>
+                    </div>
+                </div>
+                <hr style="width: 100%; color: black; height: 5px; background-color:#7d97ad;" />
+            </div>
+            <div class="row">
+                <img src="stunning-landscape-2.jpg" class="img-fluid img-responsive" width="100%" alt="featured image">
+            </div>
+            <div class="row mt-4 mb-3 ml-3">
+                <div class="col">
+                    <div class="text-md-left" id="work">    
+                        <h1>Featured Work<br></h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4 mb-3">
+                <div class="col-md-4">
+                    <figure class="text-center">
+                        <img src="toes-photo-826723.jpeg" class="img-fluid" alt="featured image" height="250">
+                        <figcaption class="figure-caption"><a href="https://github.com/giterdone50/TicTacToe" target="_blank">Tic Tac Toe</a></figcaption>
+                    </figure>
+                </div>
+
+
+                <div class="col-md-4">
+                    <figure class="text-center">
+                        <img src="puzzle.jpg" class="img-fluid" alt="featured image" height="250">
+                        <figcaption class ="figure-caption"><a
+                                                               href="https://github.com/giterdone50/2048-game"
+                                                               target="_blank">2048 Game</a></figcaption>
+                    </figure>
+                </div>
+
+
+                <div class="col-md-4">
+                    <figure class="text-center">
+                        <img src="Mpuzzle.png" class="img-fluid" alt="featured image" height="250">
+                        <figcaption class ="figure-caption"><a
+                                                               href="https://github.com/giterdone50/BST#bst"
+                                                               target="_blank">Binary Search Tree</a></figcaption>
+                    </figure>
+                </div>
+
+
+            </div>
+        </div>
+        <!--        This are the Java scripts for Bootstrap-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    </body>
+</html>
